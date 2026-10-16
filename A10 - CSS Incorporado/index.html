@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Incorporado</title>
+
+<!-- Acionando o CSS Incorporado-->
+ <style>
+
+    /* Formatando por TAG do HTML - Exemplo: nome_tag{propriedade: valor}*/
+    body
+    {background:#E6E6FA ; margin: 0px;}
+
+    header
+    {background: #9370DB;color: #4B0082; text-align: center; padding: 20px;}
+
+    a
+    {background: #9932CC ;color:#4B0082 ;padding: 10px; text-decoration: none; font-size: 20px; border-radius: 15px;}
+
+    p
+    {background: #BA55D3; text-align: center; font-size: 16px; padding: 10px; border: double #800080 ; border-radius: 20px; width: 500px; position: relative; margin: auto; margin-top: 20px;}
+
+    img
+    {width: 400px;height: 400px; border-radius: 100%;}
+
+    div
+    {position: relative; text-align: center; top: 30px;}
+    
+    footer
+    {background: #9370DB;color: #4B0082; text-align: center; padding: 20px; position: relative; top: 30px;}
+
+    /*Efeito HOVER * Obs: Efeito ocorre quando movimeta o mouse sobre o elemento do HTML*/
+    a:hover
+    {background:#8B008B ;color: #4B0082;}
+
+    p:hover
+    {background: #8B008B;color: #4B0082; font-size: 17px; transition: 0.5s;}
+
+    img:hover
+    {width: 420px;height: 420px; border-radius: 0%; transition: 0.5s;}
+
+    /*Efeito ACTIVE * Obs: Efeito ocorre quando clica no elemento do HTML*/
+    a:active
+    {background:#9400D3 ;color: #7B68EE;}
+
+    p:active
+    {background: #9400D3;color: #7B68EE; font-size: 16px;}
+
+    img:active
+    {border: double #DA70D6 20px;}
+
+ </style>
+
+</head>
+
+<body>
+<header>
+    <h1>CSS Incorporado</h1>
+    <a href="#">Home</a>
+    <a href="#">Página 2</a>
+    <a href="#">Página 3</a>
+</header>
+
+<p>
+    My Little Pony é uma franquia de mídia e brinquedos estadunidense <br> 
+    que foi lançada em 1983. Foi desenvolvida <br> 
+    pela Hasbro. Inicialmente o alvo fora o público infantil, <br>
+    principalmente as garotas, entre 3 e 8 anos de idade.
+</p>
+
+<p>
+• Twilight Sparkle: Uma pônei unicórnia (e depois alicórnia / princesa) estudiosa, inteligente e líder do grupo, focada no elemento da mágica. <br>
+• Rainbow Dash: Uma pégaso rápida, corajosa e esportiva que sonha em entrar para a equipe dos Wonderbolts, representando a lealdade. <br>
+• Pinkie Pie: Uma pônei terrestre muito alegre, festeira e hiperativa, ligada ao elemento do riso e da diversão. <br>
+• Rarity: Uma unicórnia estilosa e elegante que trabalha como estilista e costureira, representando a generosidade. <br>
+• Fluttershy: Uma pégaso doce, meiga e muito tímida que ama a natureza e cuida de todos os animais, ligada à gentileza. <br>
+• Applejack: Uma pônei terrestre forte e trabalhadora que cuida do Rancho Maçã Doce, representando a honestidade.
+</p>
+
+<div>
+    <img src="img/My Little Pony1.jpg">
+    <img src="img/My Little Pony2.jpg">
+</div>
+
+<footer>
+    <h3>CSS Incorporado</h3>
+    <h4>2026</h4>
+</footer>
+
+   
+</body>
+</html>
